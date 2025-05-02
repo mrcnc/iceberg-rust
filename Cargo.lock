@@ -3449,6 +3449,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "iceberg-rust-cli"
+version = "0.4.0"
+dependencies = [
+ "clap",
+ "iceberg",
+ "iceberg-catalog-rest",
+ "serde",
+ "serde_json",
+ "tokio",
+]
+
+[[package]]
 name = "iceberg-sqllogictest"
 version = "0.4.0"
 dependencies = [
